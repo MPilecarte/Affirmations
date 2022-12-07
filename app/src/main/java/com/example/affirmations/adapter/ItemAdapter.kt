@@ -27,7 +27,8 @@ class ItemAdapter(private val context: Context,
     }
 
     override fun getItemCount(): Int {
-        return dataset.size /*implementando o 'size' o método retornará o tamanho do conjunto de dados*/
+        return dataset.size
+    /*implementando o 'size' o método retornará o tamanho do conjunto de dados*/
     }
 
 }
